@@ -3,14 +3,14 @@
 O grupo é composto pelos seguintes participantes:
 - Pedro Fernandes - 180108069
 - Maria Eduarda Lacerda - 200067184
-
-    Pedro Fernandes 180108069
-    Davi Vasconcelos de Araújo 180015427
-    Saulo Oliveira de Freitas 211000176
-    Maria Eduarda Lacerda Dantas 200067184
+- Davi Vasconcelos de Araújo - 180015427
+- Saulo Oliveira de Freitas - 211000176
 
 Compilado no powershell com os comandos:
-
+    1. g++ -std=c++11 main.cpp Funcoes.cpp -o viewer
+    2. ./viewer
+    3. Ex: exemplos/Point.class
+    
 Divisão de Tarefas:
     -> OBS: fizemos reuniões e pair programming com todos do grupo;
     -> OBS: todos do grupo participaram da bateriad e testes do projeto;
