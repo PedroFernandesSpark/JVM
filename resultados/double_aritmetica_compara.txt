@@ -1,0 +1,183 @@
+---------------- General Information ----------------
+Magic = 0xcafebabe
+Minor Version = 0
+Major Version = 46
+Java Version = 1.2
+Constant Pool Count = 31
+Access Flags: 0x21 [ public super ]
+This Class: cp_info#8 <double_aritmetica>
+Super Class: cp_info#9 <java/lang/Object>
+Interfaces Count = 0
+Fields Count = 0
+Methods Count = 2
+Attributes Count = 1
+
+---> COSTANT POOL
+        [1] Method Reference:
+                Class Name: 9 java/lang/Object
+                Name and Type: 18 <init>:()V  
+        [2] Double:
+                High Bytes: 0x40588f5c
+                Low Bytes: 0x28f5c28f
+                Double: 98.24
+        [4] Double:
+                High Bytes: 0x4060dbd7
+                Low Bytes: 0xa3d70a4
+                Double: 134.87
+        [6] Field Reference:
+                Class Name: 13 java/lang/System
+                Name and Type: 14 out:Ljava/io/PrintStream;
+        [7] Method Reference:
+                Class Name: 15 java/io/PrintStream
+                Name and Type: 16 println:(D)V
+        [8] Class: 
+                Class Name:17 double_aritmetica
+        [9] Class:
+                Class Name:18 java/lang/Object
+        [a] UTF-8:
+                String: <init>
+        [b] UTF-8:
+                String: ()V
+        [c] UTF-8:
+                String: Code
+        [d] UTF-8:
+                String: LineNumberTable
+        [e] UTF-8:
+                String: main
+        [f] UTF-8: 
+                String: ([Ljava/lang/String;)V
+        [10] UTF-8:
+                String: SourceFile
+        [11] UTF-8:
+                String: double_aritmetica.java
+        [12] Name and Type:
+                Name: a <init>
+                Descriptor: b ()V
+        [13] Class:
+                Class Name:19 java/lang/System
+        [14] Name and Type:
+                Name: 1a out
+                Descriptor: 1b Ljava/io/PrintStream;
+        [15] Class:
+                Class Name:1c java/io/PrintStream
+        [16] Name and Type:
+                Name: 1d println
+                Descriptor: 1e (D)V
+        [17] UTF-8:
+                String: double_aritmetica
+        [18] UTF-8:
+                String: java/lang/Object
+        [19] UTF-8:
+                String: java/lang/System
+        [1a] UTF-8:
+                String: out
+        [1b] UTF-8:
+                String: Ljava/io/PrintStream;
+        [1c] UTF-8: 
+                String: java/io/PrintStream
+        [1d] UTF-8:
+                String: println
+        [1e] UTF-8:
+                String: (D)V
+
+
+---> INTERFACES
+        No Intefaces
+
+---> FIELDS
+        No Fields
+
+---> METHODS
+        Method count: 2
+        Method[0]: <init>
+        Descriptor: ()V
+        Access Flags: 0x1 [ public ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 29
+        Atributes info:
+        Maximum stack size: 1
+        Maximum local variables: 1
+        Code length: 5
+        [0]     aload_0
+        [1]     invokespecial           #1 java/lang/Object.<init>
+        [4]     return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       6
+
+        Method[1]: main
+        Descriptor: ([Ljava/lang/String;)V
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 118
+        Atributes info:
+        Maximum stack size: 5
+        Maximum local variables: 5
+        Code length: 62
+        [0]     ldc2_w          #2 98.24
+        [3]     dstore_1
+        [4]     ldc2_w          #4 134.87
+        [7]     dstore_3
+        [8]     getstatic               #6 java/lang/System.out
+        [11]    dload_1
+        [12]    dload_3
+        [13]    dadd
+        [14]    invokevirtual           #7 java/io/PrintStream.println
+        [17]    getstatic               #6 java/lang/System.out
+        [20]    dload_1
+        [21]    dload_3
+        [22]    dsub
+        [23]    invokevirtual           #7 java/io/PrintStream.println
+        [26]    getstatic               #6 java/lang/System.out
+        [29]    dload_1
+        [30]    dload_3
+        [31]    dmul
+        [32]    invokevirtual           #7 java/io/PrintStream.println
+        [35]    getstatic               #6 java/lang/System.out
+        [38]    dload_1
+        [39]    dload_3
+        [40]    ddiv
+        [41]    invokevirtual           #7 java/io/PrintStream.println
+        [44]    getstatic               #6 java/lang/System.out
+        [47]    dload_1
+        [48]    dneg
+        [49]    invokevirtual           #7 java/io/PrintStream.println
+        [52]    getstatic               #6 java/lang/System.out
+        [55]    dload_3
+        [56]    dload_1
+        [57]    drem
+        [58]    invokevirtual           #7 java/io/PrintStream.println
+        [61]    return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 38
+        Line Number Table Length: 9
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       8
+        1               4                       9
+        2               8                       10
+        3               17                      11
+        4               26                      12
+        5               35                      13
+        6               44                      14
+        7               52                      15
+        8               61                      16
+
+
+
+---> ATTRIBUTES
+
+        Attribute name: SourceFile
+        Attribute length: 2
+        Source file name index: double_aritmetica.java

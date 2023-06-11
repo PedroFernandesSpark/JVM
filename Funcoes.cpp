@@ -29,7 +29,10 @@ const char* OPCODE[] = {
 };
 
 int pc=0;
+//Convect funtions
 
+
+// unsigned de 32 bits -> Float
 float toFloat(uint num){
     float result;
     memcpy(&result, &num, sizeof(float));
@@ -997,6 +1000,7 @@ void mostraClassName(ClassFile* cf){
     fclose(gerado);
 }
 
+// print access flags da classe e dos fields
 void generalInformation(ushort access_flags){
     FILE *gerado;
     stringstream ss;
@@ -1060,6 +1064,7 @@ void generalInformation(ushort access_flags){
 
 }
 
+// print access flags dos metodos
 void mostraMethodFlags(ushort access_flags){
     FILE *gerado;
     stringstream ss;
@@ -1119,6 +1124,7 @@ void mostraMethodFlags(ushort access_flags){
     fclose(gerado);
 }
 
+// print os fields do classfile
 void fields(ClassFile* cf, ifstream& arqv){
     ushort i = 0;
     info_field *aux_field;

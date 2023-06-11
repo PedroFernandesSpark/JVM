@@ -70,6 +70,5 @@
         "valarray": "cpp",
         
     },
-    "C_Cpp.errorSquiggles": "Enabled",
-    "nuxt.isNuxtApp": false
+    "C_Cpp.errorSquiggles": "Enabled"
 }

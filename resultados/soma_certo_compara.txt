@@ -1,0 +1,116 @@
+---------------- General Information ----------------
+Magic = 0xcafebabe
+Minor Version = 0
+Major Version = 46
+Java Version = 1.2
+Constant Pool Count = 17
+Access Flags: 0x20 [ super ]
+This Class: cp_info#2 <soma_certo>
+Super Class: cp_info#3 <java/lang/Object>
+Interfaces Count = 1
+Fields Count = 0
+Methods Count = 2
+Attributes Count = 1
+
+---> COSTANT POOL
+        [1] Method Reference:
+                Class Name: 3 java/lang/Object
+                Name and Type: 13 <init>:()V
+        [2] Class:
+                Class Name:14 soma_certo
+        [3] Class:
+                Class Name:15 java/lang/Object
+        [4] Class:
+                Class Name:16 Somar
+        [5] UTF-8:
+                String: <init>
+        [6] UTF-8:
+                String: ()V
+        [7] UTF-8: 
+                String: Code
+        [8] UTF-8:
+                String: LineNumberTable
+        [9] UTF-8:
+                String: somar
+        [10] UTF-8:
+                String: (II)I
+        [11] UTF-8:
+                String: SourceFile
+        [12] UTF-8:
+                String: interface_test.java
+        [13] Name and Type:
+                Name: 5 <init>
+                Descriptor: 6 ()V
+        [14] UTF-8:
+                String: soma_certo
+        [15] UTF-8:
+                String: java/lang/Object
+        [16] UTF-8:
+                String: Somar
+
+
+---> INTERFACES
+        Interface[0]: cp_info#4
+Class:
+                Class Name:16 Somar
+
+
+---> FIELDS
+        No Fields
+
+---> METHODS
+        Method count: 2
+        Method[0]: <init>
+        Descriptor: ()V
+        Access Flags: 0x0 [ ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 29
+        Atributes info:
+        Maximum stack size: 1
+        Maximum local variables: 1
+        Code length: 5
+        [0]     aload_0
+        [1]     invokespecial           #1 java/lang/Object.<init>
+        [4]     return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       19
+
+        Method[1]: somar
+        Descriptor: (II)I
+        Access Flags: 0x1 [ public ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 28
+        Atributes info:
+        Maximum stack size: 2
+        Maximum local variables: 3
+        Code length: 4
+        [0]     iload_1
+        [1]     iload_2
+        [2]     iadd
+        [3]     ireturn
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       21
+
+
+
+---> ATTRIBUTES
+
+        Attribute name: SourceFile
+        Attribute length: 2
+        Source file name index: interface_test.java

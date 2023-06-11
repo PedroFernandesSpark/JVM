@@ -1,0 +1,118 @@
+---------------- General Information ----------------
+Magic = 0xcafebabe
+Minor Version = 0
+Major Version = 46
+Java Version = 1.2
+Constant Pool Count = 21
+Access Flags: 0x20 [ super ]
+This Class: cp_info#4 <Point>
+Super Class: cp_info#5 <java/lang/Object>
+Interfaces Count = 0
+Fields Count = 2
+Methods Count = 1
+Attributes Count = 1
+
+---> COSTANT POOL
+        [1] Method Reference:
+                Class Name: 5 java/lang/Object
+                Name and Type: 15 <init>:()V
+        [2] Field Reference:
+                Class Name: 4 Point
+                Name and Type: 16 x:I
+        [3] Field Reference:
+                Class Name: 4 Point
+                Name and Type: 17 y:I
+        [4] Class:
+                Class Name:18 Point
+        [5] Class:
+                Class Name:19 java/lang/Object
+        [6] UTF-8: 
+                String: x
+        [7] UTF-8:
+                String: I
+        [8] UTF-8:
+                String: y
+        [9] UTF-8:
+                String: <init>
+        [10] UTF-8: 
+                String: (II)V
+        [11] UTF-8:
+                String: Code
+        [12] UTF-8:
+                String: LineNumberTable
+        [13] UTF-8:
+                String: SourceFile
+        [14] UTF-8: 
+                String: ColoredPoint.java
+        [15] Name and Type:
+                Name: 9 <init>
+                Descriptor: 20 ()V
+        [16] Name and Type:
+                Name: 6 x
+                Descriptor: 7 I
+        [17] Name and Type:
+                Name: 8 y
+                Descriptor: 7 I
+        [18] UTF-8:
+                String: Point
+        [19] UTF-8:
+                String: java/lang/Object
+        [20] UTF-8: 
+                String: ()V
+
+
+---> INTERFACES
+        No Intefaces
+
+---> FIELDS
+        Member Count: 2
+
+        Field[0]:
+        Name: cp_info#6 x
+        Descriptor: cp_info#7 I
+        Access Flags: 0x0 [ ]
+
+        Field[1]:
+        Name: cp_info#8 y
+        Descriptor: cp_info#7 I
+        Access Flags: 0x0 [ ]
+
+
+---> METHODS
+        Method count: 1
+        Method[0]: <init>
+        Descriptor: (II)V
+        Access Flags: 0x0 [ ]
+        Member Count: 1
+
+        Attribute name index: Code
+        Attribute length: 39
+        Atributes info:
+        Maximum stack size: 2
+        Maximum local variables: 3
+        Code length: 15
+        [0]     aload_0
+        [1]     invokespecial           #1 java/lang/Object.<init>
+        [4]     aload_0
+        [5]     iload_1
+        [6]     putfield                #2 Point.x
+        [9]     aload_0
+        [10]    iload_2
+        [11]    putfield                #3 Point.y
+        [14]    return
+        Exception table length: 0
+
+        Attribute name index: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       3
+
+
+
+---> ATTRIBUTES
+
+        Attribute name index: SourceFile
+        Attribute length: 2
+        Source file name index: ColoredPoint.java

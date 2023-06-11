@@ -1,0 +1,368 @@
+---------------- General Information ----------------
+Magic = 0xcafebabe
+Minor Version = 0
+Major Version = 46
+Java Version = 1.2
+Constant Pool Count = 72
+Access Flags: 0x21 [ public super ]
+This Class: cp_info#25 <method_test>
+Super Class: cp_info#26 <java/lang/Object>
+Interfaces Count = 0
+Fields Count = 0
+Methods Count = 6
+Attributes Count = 1
+
+---> COSTANT POOL
+        [1] Method Reference:
+                Class Name: 26 java/lang/Object
+                Name and Type: 40 <init>:()V
+        [2] Field Reference:
+                Class Name: 41 java/lang/System
+                Name and Type: 42 out:Ljava/io/PrintStream;
+        [3] Method Reference:
+                Class Name: 25 method_test
+                Name and Type: 43 Soma:(II)I
+        [4] Method Reference:
+                Class Name: 44 java/io/PrintStream
+                Name and Type: 45 println:(I)V
+        [5] String:
+                Class Name:46 ab
+        [6] String:
+                Class Name:47 cd
+        [7] Method Reference:
+                Class Name: 25 method_test
+                Name and Type: 48 Soma:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        [8] Method Reference:
+                Class Name: 44 java/io/PrintStream
+                Name and Type: 49 println:(Ljava/lang/String;)V
+        [9] Double:
+                High Bytes: 0x4041accc
+                Low Bytes: 0xcccccccd
+                Double: 35.35
+        [b] Double:
+                High Bytes: 0x403e5999
+                Low Bytes: 0x9999999a
+                Double: 30.35
+        [d] Method Reference:
+                Class Name: 19 method_test
+                Name and Type: 32 Soma:(DD)D
+        [e] Method Reference:
+                Class Name: 2c java/io/PrintStream
+                Name and Type: 33 println:(D)V
+        [f] Long:
+                High Bytes: 0x0
+                Low Bytes: 0x11e1a300
+                Long: 300000000
+        [17] Long:
+                High Bytes: 0x0
+                Low Bytes: 0x29b92700
+                Long: 700000000
+        [19] Method Reference:
+                Class Name: 25 method_test
+                Name and Type: 52 Soma:(JJ)J
+        [20] Method Reference:
+                Class Name: 44 java/io/PrintStream
+                Name and Type: 53 println:(J)V
+        [21] Class:
+                Class Name:54 java/lang/StringBuffer
+        [22] Method Reference:
+                Class Name: 21 java/lang/StringBuffer
+                Name and Type: 40 <init>:()V
+        [23] Method Reference:
+                Class Name: 21 java/lang/StringBuffer
+                Name and Type: 55 append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        [24] Method Reference:
+                Class Name: 21 java/lang/StringBuffer
+                Name and Type: 56 toString:()Ljava/lang/String;
+        [25] Class:
+                Class Name:57 method_test
+        [26] Class:
+                Class Name:58 java/lang/Object
+        [27] UTF-8:
+                String: <init>
+        [28] UTF-8:
+                String: ()V
+        [29] UTF-8:
+                String: Code
+        [30] UTF-8:
+                String: LineNumberTable
+        [31] UTF-8:
+                String: main
+        [32] UTF-8:
+                String: ([Ljava/lang/String;)V
+        [33] UTF-8:
+                String: Soma
+        [34] UTF-8:
+                String: (II)I
+        [35] UTF-8:
+                String: (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;    
+        [36] UTF-8:
+                String: (DD)D
+        [37] UTF-8:
+                String: (JJ)J
+        [38] UTF-8:
+                String: SourceFile
+        [39] UTF-8:
+                String: method_test.java
+        [40] Name and Type:
+                Name: 27 <init>
+                Descriptor: 28 ()V
+        [41] Class:
+                Class Name:59 java/lang/System
+        [42] Name and Type:
+                Name: 60 out
+                Descriptor: 61 Ljava/io/PrintStream;
+        [43] Name and Type:
+                Name: 33 Soma
+                Descriptor: 34 (II)I
+        [44] Class:
+                Class Name:62 java/io/PrintStream
+        [45] Name and Type:
+                Name: 63 println
+                Descriptor: 64 (I)V
+        [46] UTF-8: 
+                String: ab
+        [47] UTF-8:
+                String: cd
+        [48] Name and Type:
+                Name: 33 Soma
+                Descriptor: 35 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        [49] Name and Type:
+                Name: 63 println
+                Descriptor: 65 (Ljava/lang/String;)V
+        [50] Name and Type:
+                Name: 33 Soma
+                Descriptor: 36 (DD)D
+        [51] Name and Type:
+                Name: 63 println
+                Descriptor: 66 (D)V
+        [52] Name and Type:
+                Name: 33 Soma
+                Descriptor: 37 (JJ)J
+        [53] Name and Type:
+                Name: 63 println
+                Descriptor: 67 (J)V
+        [54] UTF-8:
+                String: java/lang/StringBuffer
+        [55] Name and Type:
+                Name: 68 append
+                Descriptor: 69 (Ljava/lang/String;)Ljava/lang/StringBuffer;
+        [56] Name and Type:
+                Name: 70 toString
+                Descriptor: 71 ()Ljava/lang/String;
+        [57] UTF-8:
+                String: method_test
+        [58] UTF-8:
+                String: java/lang/Object
+        [59] UTF-8:
+                String: java/lang/System
+        [60] UTF-8:
+                String: out
+        [61] UTF-8:
+                String: Ljava/io/PrintStream;
+        [62] UTF-8:
+                String: java/io/PrintStream
+        [63] UTF-8:
+                String: println
+        [64] UTF-8:
+                String: (I)V
+        [65] UTF-8:
+                String: (Ljava/lang/String;)V
+        [66] UTF-8: 
+                String: (D)V
+        [67] UTF-8:
+                String: (J)V
+        [68] UTF-8:
+                String: append
+        [69] UTF-8:
+                String: (Ljava/lang/String;)Ljava/lang/StringBuffer;
+        [70] UTF-8:
+                String: toString
+        [71] UTF-8:
+                String: ()Ljava/lang/String;
+
+
+---> INTERFACES
+        No Intefaces
+
+---> FIELDS
+        No Fields
+
+---> METHODS
+        Method count: 6
+        Method[0]: <init>
+        Descriptor: ()V
+        Access Flags: 0x1 [ public ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 29
+        Atributes info:
+        Maximum stack size: 1
+        Maximum local variables: 1
+        Code length: 5
+        [0]     aload_0
+        [1]     invokespecial           #1 java/lang/Object.<init>
+        [4]     return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       10
+
+        Method[1]: main
+        Descriptor: ([Ljava/lang/String;)V
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 95
+        Atributes info:
+        Maximum stack size: 5
+        Maximum local variables: 1
+        Code length: 55
+        [0]     getstatic               #2 java/lang/System.out
+        [3]     iconst_2
+        [4]     iconst_3
+        [5]     invokestatic            #3 method_test.Soma
+        [8]     invokevirtual           #4 java/io/PrintStream.println
+        [11]    getstatic               #2 java/lang/System.out
+        [14]    ldc                             #5 ab
+        [16]    ldc                             #6 cd
+        [18]    invokestatic            #7 method_test.Soma
+        [21]    invokevirtual           #8 java/io/PrintStream.println
+        [24]    getstatic               #2 java/lang/System.out
+        [27]    ldc2_w          #9 35.35
+        [30]    ldc2_w          #11 30.35
+        [33]    invokestatic            #13 method_test.Soma
+        [36]    invokevirtual           #14 java/io/PrintStream.println
+        [39]    getstatic               #2 java/lang/System.out
+        [42]    ldc2_w          #15 300000000
+        [45]    ldc2_w          #17 700000000
+        [48]    invokestatic            #19 method_test.Soma
+        [51]    invokevirtual           #20 java/io/PrintStream.println
+        [54]    return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 22
+        Line Number Table Length: 5
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       12
+        1               11                      13
+        2               24                      14
+        3               39                      15
+        4               54                      16
+
+        Method[2]: Soma
+        Descriptor: (II)I
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 28
+        Atributes info:
+        Maximum stack size: 2
+        Maximum local variables: 2
+        Code length: 4
+        [0]     iload_0
+        [1]     iload_1
+        [2]     iadd
+        [3]     ireturn
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       18
+
+        Method[3]: Soma
+        Descriptor: (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;        
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 43
+        Atributes info:
+        Maximum stack size: 2
+        Maximum local variables: 2
+        Code length: 19
+        [0]     new             #21 java/lang/StringBuffer
+        [3]     dup
+        [4]     invokespecial           #22 java/lang/StringBuffer.<init>
+        [7]     aload_0
+        [8]     invokevirtual           #23 java/lang/StringBuffer.append
+        [11]    aload_1
+        [12]    invokevirtual           #23 java/lang/StringBuffer.append
+        [15]    invokevirtual           #24 java/lang/StringBuffer.toString
+        [18]    areturn
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       22
+
+        Method[4]: Soma
+        Descriptor: (DD)D
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 28
+        Atributes info:
+        Maximum stack size: 4
+        Maximum local variables: 4
+        Code length: 4
+        [0]     dload_0
+        [1]     dload_2
+        [2]     dadd
+        [3]     dreturn
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       26
+
+        Method[5]: Soma
+        Descriptor: (JJ)J
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 28
+        Atributes info:
+        Maximum stack size: 4
+        Maximum local variables: 4
+        Code length: 4
+        [0]     lload_0
+        [1]     lload_2
+        [2]     lsub
+        [3]     lreturn
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       30
+
+
+
+---> ATTRIBUTES
+
+        Attribute name: SourceFile
+        Attribute length: 2
+        Source file name index: method_test.java

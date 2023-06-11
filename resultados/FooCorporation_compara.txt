@@ -1,0 +1,526 @@
+---------------- General Information ----------------
+Magic = 0xcafebabe
+Minor Version = 0
+Major Version = 46
+Java Version = 1.2
+Constant Pool Count = 100
+Access Flags: 0x21 [ public super ]
+This Class: cp_info#34 <FooCorporation>
+Super Class: cp_info#38 <java/lang/Object>
+Interfaces Count = 0
+Fields Count = 2
+Methods Count = 3
+Attributes Count = 1
+
+---> COSTANT POOL
+        [1] Method Reference:
+                Class Name: 38 java/lang/Object
+                Name and Type: 53 <init>:()V
+        [2] Field Reference:
+                Class Name: 34 FooCorporation
+                Name and Type: 54 salarioTotal:F
+        [3] Class:
+                Class Name:55 Empregado
+        [4] Field Reference:
+                Class Name: 34 FooCorporation
+                Name and Type: 56 empregados:[LEmpregado;
+        [5] Class:
+                Class Name:57 Gerente
+        [6] String:
+                Class Name:58 Joao
+        [7] String: 
+                Class Name:59 Silva
+        [8] Float:
+                Bytes: 0x42f00000
+                Float: 120
+        [9] Method Reference:
+                Class Name: 5 Gerente
+                Name and Type: 60 <init>:(Ljava/lang/String;Ljava/lang/String;FII)V 
+        [10] String:
+                Class Name:61 Melissa
+        [11] String: 
+                Class Name:62 Oliveira
+        [12] Float:
+                Bytes: 0x437f8000
+                Float: 255.5
+        [13] Class:
+                Class Name:63 Engenheiro
+        [14] String:
+                Class Name:64 Edson
+        [15] String:
+                Class Name:65 Pereira
+        [16] Float:
+                Bytes: 0x435c0000
+                Float: 220
+        [17] Method Reference:
+                Class Name: 13 Engenheiro
+                Name and Type: 60 <init>:(Ljava/lang/String;Ljava/lang/String;FII)V 
+        [18] String:
+                Class Name:66 Felipe
+        [19] String:
+                Class Name:67 Brito
+        [20] Float:
+                Bytes: 0x42f90000
+                Float: 124.5
+        [21] String:
+                Class Name:68 Adam
+        [22] Float:
+                Bytes: 0x43780000
+                Float: 248
+        [23] String:
+                Class Name:69 Sofia
+        [24] String:
+                Class Name:70 Albuquerque
+        [25] Float:
+                Bytes: 0x43a00000
+                Float: 320
+        [26] Field Reference:
+                Class Name: 71 java/lang/System
+                Name and Type: 72 out:Ljava/io/PrintStream;
+        [27] Field Reference:
+                Class Name: 13 Engenheiro
+                Name and Type: 73 baseSalarial:F
+        [28] Method Reference:
+                Class Name: 74 java/io/PrintStream
+                Name and Type: 75 println:(F)V
+        [29] Field Reference:
+                Class Name: 13 Engenheiro
+                Name and Type: 76 nome:Ljava/lang/String;
+        [30] Method Reference:
+                Class Name: 74 java/io/PrintStream
+                Name and Type: 77 println:(Ljava/lang/String;)V
+        [31] Method Reference:
+                Class Name: 5 Gerente
+                Name and Type: 78 addHorasGolfe:(I)V
+        [32] Method Reference:
+                Class Name: 13 Engenheiro
+                Name and Type: 79 horasTrafegadas:(I)V
+        [33] Method Reference:
+                Class Name: 3 Empregado
+                Name and Type: 80 pagamentoSemanal:()F
+        [34] Class:
+                Class Name:81 FooCorporation
+        [35] Method Reference:
+                Class Name: 34 FooCorporation
+                Name and Type: 53 <init>:()V
+        [36] String:
+                Class Name:82 O salario calculado foi de:
+        [37] Method Reference:
+                Class Name: 34 FooCorporation
+                Name and Type: 83 getSalario:()F
+        [38] Class:
+                Class Name:84 java/lang/Object
+        [39] UTF-8:
+                String: salarioTotal
+        [40] UTF-8:
+                String: F
+        [41] UTF-8:
+                String: empregados
+        [42] UTF-8:
+                String: [LEmpregado;
+        [43] UTF-8:
+                String: <init>
+        [44] UTF-8:
+                String: ()V
+        [45] UTF-8:
+                String: Code
+        [46] UTF-8:
+                String: LineNumberTable
+        [47] UTF-8:
+                String: getSalario
+        [48] UTF-8:
+                String: ()F
+        [49] UTF-8:
+                String: main
+        [50] UTF-8:
+                String: ([Ljava/lang/String;)V
+        [51] UTF-8:
+                String: SourceFile
+        [52] UTF-8:
+                String: FooCorporation.java
+        [53] Name and Type:
+                Name: 43 <init>
+                Descriptor: 44 ()V
+        [54] Name and Type:
+                Name: 39 salarioTotal
+                Descriptor: 40 F
+        [55] UTF-8:
+                String: Empregado
+        [56] Name and Type:
+                Name: 41 empregados
+                Descriptor: 42 [LEmpregado;
+        [57] UTF-8:
+                String: Gerente
+        [58] UTF-8:
+                String: Joao
+        [59] UTF-8:
+                String: Silva
+        [60] Name and Type:
+                Name: 43 <init>
+                Descriptor: 85 (Ljava/lang/String;Ljava/lang/String;FII)V
+        [61] UTF-8:
+                String: Melissa
+        [62] UTF-8:
+                String: Oliveira
+        [63] UTF-8:
+                String: Engenheiro
+        [64] UTF-8:
+                String: Edson
+        [65] UTF-8:
+                String: Pereira
+        [66] UTF-8:
+                String: Felipe
+        [67] UTF-8:
+                String: Brito
+        [68] UTF-8:
+                String: Adam
+        [69] UTF-8: 
+                String: Sofia
+        [70] UTF-8:
+                String: Albuquerque
+        [71] Class:
+                Class Name:86 java/lang/System
+        [72] Name and Type:
+                Name: 87 out
+                Descriptor: 88 Ljava/io/PrintStream;
+        [73] Name and Type:
+                Name: 89 baseSalarial
+                Descriptor: 40 F
+        [74] Class:
+                Class Name:90 java/io/PrintStream
+        [75] Name and Type:
+                Name: 91 println
+                Descriptor: 92 (F)V
+        [76] Name and Type:
+                Name: 93 nome
+                Descriptor: 94 Ljava/lang/String;
+        [77] Name and Type:
+                Name: 91 println
+                Descriptor: 95 (Ljava/lang/String;)V
+        [78] Name and Type:
+                Name: 96 addHorasGolfe
+                Descriptor: 97 (I)V
+        [79] Name and Type:
+                Name: 98 horasTrafegadas
+                Descriptor: 97 (I)V
+        [80] Name and Type:
+                Name: 99 pagamentoSemanal
+                Descriptor: 48 ()F
+        [81] UTF-8:
+                String: FooCorporation
+        [82] UTF-8:
+                String: O salario calculado foi de:
+        [83] Name and Type:
+                Name: 47 getSalario
+                Descriptor: 48 ()F
+        [84] UTF-8:
+                String: java/lang/Object
+        [85] UTF-8:
+                String: (Ljava/lang/String;Ljava/lang/String;FII)V
+        [86] UTF-8:
+                String: java/lang/System
+        [87] UTF-8:
+                String: out
+        [88] UTF-8: 
+                String: Ljava/io/PrintStream;
+        [89] UTF-8:
+                String: baseSalarial
+        [90] UTF-8:
+                String: java/io/PrintStream
+        [91] UTF-8:
+                String: println
+        [92] UTF-8:
+                String: (F)V
+        [93] UTF-8:
+                String: nome
+        [94] UTF-8:
+                String: Ljava/lang/String;
+        [95] UTF-8: 
+                String: (Ljava/lang/String;)V
+        [96] UTF-8:
+                String: addHorasGolfe
+        [97] UTF-8:
+                String: (I)V
+        [98] UTF-8:
+                String: horasTrafegadas
+        [99] UTF-8:
+                String: pagamentoSemanal
+
+
+---> INTERFACES
+        No Intefaces
+
+---> FIELDS
+        Member Count: 2
+
+        Field[0]: 
+        Name: cp_info#39 salarioTotal
+        Descriptor: cp_info#40 F
+        Access Flags: 0x2 [ private ]
+
+        Field[1]:
+        Name: cp_info#41 empregados
+        Descriptor: cp_info#42 [LEmpregado;
+        Access Flags: 0x2 [ private ]
+
+
+---> METHODS
+        Method count: 3
+        Method[0]: <init>
+        Descriptor: ()V
+        Access Flags: 0x1 [ public ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 422
+        Atributes info:
+        Maximum stack size: 7
+        Maximum local variables: 8
+        Code length: 286
+        [0]     aload_0
+        [1]     invokespecial           #1 java/lang/Object.<init>
+        [4]     aload_0
+        [5]     fconst_0
+        [6]     putfield                #2 FooCorporation.salarioTotal
+        [9]     aload_0
+        [10]    bipush          6
+        [12]    anewarray               #3 Empregado
+        [15]    putfield                #4 FooCorporation.empregados
+        [18]    new             #5 Gerente
+        [21]    dup
+        [22]    ldc                             #6 Joao
+        [24]    ldc                             #7 Silva
+        [26]    ldc                             #8 120.000000
+        [28]    bipush          45
+        [30]    iconst_1
+        [31]    invokespecial           #9 Gerente.<init>
+        [34]    astore_1
+        [35]    new             #5 Gerente
+        [38]    dup
+        [39]    ldc                             #10 Melissa
+        [41]    ldc                             #11 Oliveira
+        [43]    ldc                             #12 255.500000
+        [45]    bipush          55
+        [47]    iconst_2
+        [48]    invokespecial           #9 Gerente.<init>
+        [51]    astore_2
+        [52]    new             #13 Engenheiro
+        [55]    dup
+        [56]    ldc                             #14 Edson
+        [58]    ldc                             #15 Pereira
+        [60]    ldc                             #16 220.000000
+        [62]    bipush          70
+        [64]    iconst_3
+        [65]    invokespecial           #17 Engenheiro.<init>
+        [68]    astore_3
+        [69]    new             #13 Engenheiro
+        [72]    dup
+        [73]    ldc                             #18 Felipe
+        [75]    ldc                             #19 Brito
+        [77]    ldc                             #20 124.500000
+        [79]    bipush          42
+        [81]    iconst_4
+        [82]    invokespecial           #17 Engenheiro.<init>
+        [85]    astore          4
+        [87]    new             #13 Engenheiro
+        [90]    dup
+        [91]    ldc                             #21 Adam
+        [93]    ldc                             #7 Silva
+        [95]    ldc                             #22 248.000000
+        [97]    bipush          38
+        [99]    iconst_5
+        [100]   invokespecial           #17 Engenheiro.<init>
+        [103]   astore          5
+        [105]   new             #13 Engenheiro
+        [108]   dup
+        [109]   ldc                             #23 Sofia
+        [111]   ldc                             #24 Albuquerque
+        [113]   ldc                             #25 320.000000
+        [115]   bipush          44
+        [117]   bipush          6
+        [119]   invokespecial           #17 Engenheiro.<init>
+        [122]   astore          6
+        [124]   getstatic               #26 java/lang/System.out
+        [127]   aload           6
+        [129]   getfield                #27 Engenheiro.baseSalarial
+        [132]   invokevirtual           #28 java/io/PrintStream.println
+        [135]   getstatic               #26 java/lang/System.out
+        [138]   aload           5
+        [140]   getfield                #27 Engenheiro.baseSalarial
+        [143]   invokevirtual           #28 java/io/PrintStream.println
+        [146]   getstatic               #26 java/lang/System.out
+        [149]   aload           6
+        [151]   getfield                #29 Engenheiro.nome
+        [154]   invokevirtual           #30 java/io/PrintStream.println
+        [157]   getstatic               #26 java/lang/System.out
+        [160]   aload           5
+        [162]   getfield                #29 Engenheiro.nome
+        [165]   invokevirtual           #30 java/io/PrintStream.println
+        [168]   aload_1
+        [169]   bipush          10
+        [171]   invokevirtual           #31 Gerente.addHorasGolfe
+        [174]   aload_2
+        [175]   iconst_5
+        [176]   invokevirtual           #31 Gerente.addHorasGolfe
+        [179]   aload_3
+        [180]   bipush          8
+        [182]   invokevirtual           #32 Engenheiro.horasTrafegadas
+        [185]   aload           4
+        [187]   bipush          12
+        [189]   invokevirtual           #32 Engenheiro.horasTrafegadas
+        [192]   aload           5
+        [194]   iconst_5
+        [195]   invokevirtual           #32 Engenheiro.horasTrafegadas
+        [198]   aload           6
+        [200]   bipush          7
+        [202]   invokevirtual           #32 Engenheiro.horasTrafegadas
+        [205]   aload_0
+        [206]   getfield                #4 FooCorporation.empregados
+        [209]   iconst_0
+        [210]   aload_1
+        [211]   aastore
+        [212]   aload_0
+        [213]   getfield                #4 FooCorporation.empregados
+        [216]   iconst_1
+        [217]   aload_2
+        [218]   aastore
+        [219]   aload_0
+        [220]   getfield                #4 FooCorporation.empregados
+        [223]   iconst_2
+        [224]   aload_3
+        [225]   aastore
+        [226]   aload_0
+        [227]   getfield                #4 FooCorporation.empregados
+        [230]   iconst_3
+        [231]   aload           4
+        [233]   aastore
+        [234]   aload_0
+        [235]   getfield                #4 FooCorporation.empregados
+        [238]   iconst_4
+        [239]   aload           5
+        [241]   aastore
+        [242]   aload_0
+        [243]   getfield                #4 FooCorporation.empregados
+        [246]   iconst_5
+        [247]   aload           6
+        [249]   aastore
+        [250]   iconst_0
+        [251]   istore          7
+        [253]   iload           7
+        [255]   bipush          6
+        [257]   if_icmpge               285 (+28)
+        [260]   aload_0
+        [261]   dup
+        [262]   getfield                #2 FooCorporation.salarioTotal
+        [265]   aload_0
+        [266]   getfield                #4 FooCorporation.empregados
+        [269]   iload           7
+        [271]   aaload
+        [272]   invokevirtual           #33 Empregado.pagamentoSemanal
+        [275]   fadd
+        [276]   putfield                #2 FooCorporation.salarioTotal
+        [279]   iinc            7 by 1
+        [282]   goto            253 (-29)
+        [285]   return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 118
+        Line Number Table Length: 29
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       5
+        1               4                       3
+        2               9                       4
+        3               18                      6
+        4               35                      7
+        5               52                      8
+        6               69                      9
+        7               87                      10
+        8               105                     11
+        9               124                     13
+        10              135                     14
+        11              146                     15
+        12              157                     16
+        13              168                     17
+        14              174                     18
+        15              179                     19
+        16              185                     20
+        17              192                     21
+        18              198                     22
+        19              205                     23
+        20              212                     24
+        21              219                     25
+        22              226                     26
+        23              234                     27
+        24              242                     28
+        25              250                     29
+        26              260                     30
+        27              279                     29
+        28              285                     32
+
+        Method[1]: getSalario
+        Descriptor: ()F
+        Access Flags: 0x1 [ public ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 29
+        Atributes info:
+        Maximum stack size: 1
+        Maximum local variables: 1
+        Code length: 5
+        [0]     aload_0
+        [1]     getfield                #2 FooCorporation.salarioTotal
+        [4]     freturn
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       35
+
+        Method[2]: main
+        Descriptor: ([Ljava/lang/String;)V
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 63
+        Atributes info:
+        Maximum stack size: 2
+        Maximum local variables: 2
+        Code length: 27
+        [0]     new             #34 FooCorporation
+        [3]     dup
+        [4]     invokespecial           #35 FooCorporation.<init>
+        [7]     astore_1
+        [8]     getstatic               #26 java/lang/System.out
+        [11]    ldc                             #36 O salario calculado foi de:     
+        [13]    invokevirtual           #30 java/io/PrintStream.println
+        [16]    getstatic               #26 java/lang/System.out
+        [19]    aload_1
+        [20]    invokevirtual           #37 FooCorporation.getSalario
+        [23]    invokevirtual           #28 java/io/PrintStream.println
+        [26]    return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 18
+        Line Number Table Length: 4
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       39
+        1               8                       40
+        2               16                      41
+        3               26                      42
+
+
+
+---> ATTRIBUTES
+
+        Attribute name: SourceFile
+        Attribute length: 2
+        Source file name index: FooCorporation.java

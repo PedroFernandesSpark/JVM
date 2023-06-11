@@ -1,0 +1,366 @@
+---------------- General Information ----------------
+Magic = 0xcafebabe
+Minor Version = 0
+Major Version = 46
+Java Version = 1.2
+Constant Pool Count = 38
+Access Flags: 0x20 [ super ]
+This Class: cp_info#10 <multi_sem_string>
+Super Class: cp_info#11 <java/lang/Object>
+Interfaces Count = 0
+Fields Count = 0
+Methods Count = 2
+Attributes Count = 1
+
+---> COSTANT POOL
+        [1] Method Reference:
+                Class Name: 11 java/lang/Object
+                Name and Type: 20 <init>:()V
+        [2] Class: 
+                Class Name:21 [[I
+        [3] Class:
+                Class Name:22 [[[I
+        [4] Class:
+                Class Name:23 [[D
+        [5] Double:
+                High Bytes: 0x40000000
+                Low Bytes: 0x0
+                Double: 2
+        [7] Field Reference:
+                Class Name: 18 java/lang/System
+                Name and Type: 19 out:Ljava/io/PrintStream;
+        [8] Method Reference:
+                Class Name: 1a java/io/PrintStream
+                Name and Type: 1b println:(I)V
+        [9] Method Reference:
+                Class Name: 1a java/io/PrintStream
+                Name and Type: 1c println:(D)V
+        [a] Class:
+                Class Name:1d multi_sem_string
+        [b] Class:
+                Class Name:1e java/lang/Object
+        [c] UTF-8:
+                String: <init>
+        [d] UTF-8:
+                String: ()V
+        [e] UTF-8:
+                String: Code
+        [f] UTF-8:
+                String: LineNumberTable
+        [10] UTF-8:
+                String: main
+        [11] UTF-8:
+                String: ([Ljava/lang/String;)V
+        [12] UTF-8:
+                String: SourceFile
+        [13] UTF-8:
+                String: multi_sem_string.java
+        [14] Name and Type:
+                Name: c <init>
+                Descriptor: d ()V
+        [15] UTF-8:
+                String: [[I
+        [16] UTF-8:
+                String: [[[I
+        [17] UTF-8:
+                String: [[D
+        [18] Class:
+                Class Name:1f java/lang/System
+        [19] Name and Type:
+                Name: 20 out
+                Descriptor: 21 Ljava/io/PrintStream;
+        [1a] Class:
+                Class Name:22 java/io/PrintStream
+        [1b] Name and Type:
+                Name: 23 println
+                Descriptor: 24 (I)V
+        [1c] Name and Type:
+                Name: 23 println
+                Descriptor: 25 (D)V
+        [1d] UTF-8:
+                String: multi_sem_string
+        [1e] UTF-8:
+                String: java/lang/Object
+        [1f] UTF-8:
+                String: java/lang/System
+        [20] UTF-8:
+                String: out
+        [21] UTF-8:
+                String: Ljava/io/PrintStream;
+        [22] UTF-8:
+                String: java/io/PrintStream
+        [23] UTF-8:
+                String: println
+        [24] UTF-8:
+                String: (I)V
+        [25] UTF-8:
+                String: (D)V
+
+
+---> INTERFACES
+        No Intefaces
+
+---> FIELDS
+        No Fields
+
+---> METHODS
+        Method count: 2
+        Method[0]: <init>
+        Descriptor: ()V
+        Access Flags: 0x0 [ ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 29
+        Atributes info:
+        Maximum stack size: 1
+        Maximum local variables: 1
+        Code length: 5
+        [0]     aload_0
+        [1]     invokespecial           #1 java/lang/Object.<init>
+        [4]     return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 6
+        Line Number Table Length: 1
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       6
+
+        Method[1]: main
+        Descriptor: ([Ljava/lang/String;)V
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 516
+        Atributes info:
+        Maximum stack size: 4
+        Maximum local variables: 9
+        Code length: 328
+        [0]     iconst_5
+        [1]     iconst_5
+        [2]     multianewarray                  #2[[I dim 2
+        [6]     astore_1
+        [7]     iconst_5
+        [8]     iconst_4
+        [9]     iconst_3
+        [10]    multianewarray                  #3[[[I dim 3
+        [14]    astore_2
+        [15]    iconst_4
+        [16]    iconst_3
+        [17]    multianewarray                  #4[[D dim 2
+        [21]    astore_3
+        [22]    iconst_0
+        [23]    istore          4
+        [25]    iconst_0
+        [26]    istore          7
+        [28]    iload           7
+        [30]    iconst_5
+        [31]    if_icmpge               67 (+36)
+        [34]    iconst_0
+        [35]    istore          8
+        [37]    iload           8
+        [39]    iconst_5
+        [40]    if_icmpge               61 (+21)
+        [43]    aload_1
+        [44]    iload           7
+        [46]    aaload
+        [47]    iload           8
+        [49]    iload           4
+        [51]    iastore
+        [52]    iinc            4 by 1
+        [55]    iinc            8 by 1
+        [58]    goto            37 (-21)
+        [61]    iinc            7 by 1
+        [64]    goto            28 (-36)
+        [67]    dconst_0
+        [68]    dstore          5
+        [70]    iconst_0
+        [71]    istore          7
+        [73]    iload           7
+        [75]    iconst_4
+        [76]    if_icmpge               117 (+41)
+        [79]    iconst_0
+        [80]    istore          8
+        [82]    iload           8
+        [84]    iconst_3
+        [85]    if_icmpge               111 (+26)
+        [88]    aload_3
+        [89]    iload           7
+        [91]    aaload
+        [92]    iload           8
+        [94]    dload           5
+        [96]    dastore
+        [97]    dload           5
+        [99]    ldc2_w          #5 2
+        [102]   dadd
+        [103]   dstore          5
+        [105]   iinc            8 by 1
+        [108]   goto            82 (-26)
+        [111]   iinc            7 by 1
+        [114]   goto            73 (-41)
+        [117]   iconst_0
+        [118]   istore          7
+        [120]   iload           7
+        [122]   iconst_5
+        [123]   if_icmpge               160 (+37)
+        [126]   iconst_0
+        [127]   istore          8
+        [129]   iload           8
+        [131]   iconst_5
+        [132]   if_icmpge               154 (+22)
+        [135]   getstatic               #7 java/lang/System.out
+        [138]   aload_1
+        [139]   iload           7
+        [141]   aaload
+        [142]   iload           8
+        [144]   iaload
+        [145]   invokevirtual           #8 java/io/PrintStream.println
+        [148]   iinc            8 by 1
+        [151]   goto            129 (-22)
+        [154]   iinc            7 by 1
+        [157]   goto            120 (-37)
+        [160]   iconst_0
+        [161]   istore          7
+        [163]   iload           7
+        [165]   iconst_4
+        [166]   if_icmpge               203 (+37)
+        [169]   iconst_0
+        [170]   istore          8
+        [172]   iload           8
+        [174]   iconst_3
+        [175]   if_icmpge               197 (+22)
+        [178]   getstatic               #7 java/lang/System.out
+        [181]   aload_3
+        [182]   iload           7
+        [184]   aaload
+        [185]   iload           8
+        [187]   daload
+        [188]   invokevirtual           #9 java/io/PrintStream.println
+        [191]   iinc            8 by 1
+        [194]   goto            172 (-22)
+        [197]   iinc            7 by 1
+        [200]   goto            163 (-37)
+        [203]   iconst_0
+        [204]   istore          7
+        [206]   iload           7
+        [208]   iconst_5
+        [209]   if_icmpge               266 (+57)
+        [212]   iconst_0
+        [213]   istore          8
+        [215]   iload           8
+        [217]   iconst_4
+        [218]   if_icmpge               260 (+42)
+        [221]   iconst_0
+        [222]   istore          4
+        [224]   iload           4
+        [226]   iconst_3
+        [227]   if_icmpge               254 (+27)
+        [230]   aload_2
+        [231]   iload           7
+        [233]   aaload
+        [234]   iload           8
+        [236]   aaload
+        [237]   iload           4
+        [239]   iload           7
+        [241]   iload           8
+        [243]   iadd
+        [244]   iload           4
+        [246]   iadd
+        [247]   iastore
+        [248]   iinc            4 by 1
+        [251]   goto            224 (-27)
+        [254]   iinc            8 by 1
+        [257]   goto            215 (-42)
+        [260]   iinc            7 by 1
+        [263]   goto            206 (-57)
+        [266]   iconst_0
+        [267]   istore          7
+        [269]   iload           7
+        [271]   iconst_5
+        [272]   if_icmpge               327 (+55)
+        [275]   iconst_0
+        [276]   istore          8
+        [278]   iload           8
+        [280]   iconst_4
+        [281]   if_icmpge               321 (+40)
+        [284]   iconst_0
+        [285]   istore          4
+        [287]   iload           4
+        [289]   iconst_3
+        [290]   if_icmpge               315 (+25)
+        [293]   getstatic               #7 java/lang/System.out
+        [296]   aload_2
+        [297]   iload           7
+        [299]   aaload
+        [300]   iload           8
+        [302]   aaload
+        [303]   iload           4
+        [305]   iaload
+        [306]   invokevirtual           #8 java/io/PrintStream.println
+        [309]   iinc            4 by 1
+        [312]   goto            287 (-25)
+        [315]   iinc            8 by 1
+        [318]   goto            278 (-40)
+        [321]   iinc            7 by 1
+        [324]   goto            269 (-55)
+        [327]   return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 170
+        Line Number Table Length: 42
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       9
+        1               7                       10
+        2               15                      11
+        3               22                      22
+        4               25                      24
+        5               34                      25
+        6               43                      26
+        7               52                      27
+        8               55                      25
+        9               61                      24
+        10              67                      30
+        11              70                      32
+        12              79                      33
+        13              88                      34
+        14              97                      35
+        15              105                     33
+        16              111                     32
+        17              117                     39
+        18              126                     40
+        19              135                     41
+        20              148                     40
+        21              154                     39
+        22              160                     45
+        23              169                     46
+        24              178                     47
+        25              191                     46
+        26              197                     45
+        27              203                     52
+        28              212                     53
+        29              221                     54
+        30              230                     55
+        31              248                     54
+        32              254                     53
+        33              260                     52
+        34              266                     59
+        35              275                     60
+        36              284                     61
+        37              293                     62
+        38              309                     61
+        39              315                     60
+        40              321                     59
+        41              327                     66
+
+
+
+---> ATTRIBUTES
+
+        Attribute name: SourceFile
+        Attribute length: 2
+        Source file name index: multi_sem_string.java

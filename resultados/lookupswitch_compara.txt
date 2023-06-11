@@ -1,0 +1,224 @@
+---------------- General Information ----------------
+Magic = 0xcafebabe
+Minor Version = 0
+Major Version = 46
+Java Version = 1.2
+Constant Pool Count = 36
+Access Flags: 0x21 [ public super ]
+This Class: cp_info#7 <lookupswitch>
+Super Class: cp_info#8 <java/lang/Object>
+Interfaces Count = 0
+Fields Count = 0
+Methods Count = 3
+Attributes Count = 1
+
+---> COSTANT POOL
+        [1] Method Reference:
+                Class Name: 8 java/lang/Object
+                Name and Type: 19 <init>:()V
+        [2] Field Reference:
+                Class Name: 20 java/lang/System
+                Name and Type: 21 out:Ljava/io/PrintStream;
+        [3] String:
+                Class Name:22 Ops!
+        [4] Method Reference:
+                Class Name: 23 java/io/PrintStream
+                Name and Type: 24 println:(Ljava/lang/String;)V
+        [5] Method Reference:
+                Class Name: 7 lookupswitch
+                Name and Type: 25 chooseFar:(I)I
+        [6] Method Reference:
+                Class Name: 23 java/io/PrintStream
+                Name and Type: 26 println:(I)V
+        [7] Class: 
+                Class Name:27 lookupswitch
+        [8] Class:
+                Class Name:28 java/lang/Object
+        [9] UTF-8:
+                String: chooseFar
+        [10] UTF-8:
+                String: (I)I
+        [11] UTF-8:
+                String: Code
+        [12] UTF-8:
+                String: LineNumberTable
+        [13] UTF-8:
+                String: <init>
+        [14] UTF-8:
+                String: ()V
+        [15] UTF-8:
+                String: main
+        [16] UTF-8:
+                String: ([Ljava/lang/String;)V
+        [17] UTF-8:
+                String: SourceFile
+        [18] UTF-8:
+                String: lookupswitch.java
+        [19] Name and Type:
+                Name: 13 <init>
+                Descriptor: 14 ()V
+        [20] Class:
+                Class Name:29 java/lang/System
+        [21] Name and Type:
+                Name: 30 out
+                Descriptor: 31 Ljava/io/PrintStream;
+        [22] UTF-8:
+                String: Ops!
+        [23] Class:
+                Class Name:32 java/io/PrintStream
+        [24] Name and Type:
+                Name: 33 println
+                Descriptor: 34 (Ljava/lang/String;)V
+        [25] Name and Type:
+                Name: 9 chooseFar
+                Descriptor: 10 (I)I
+        [26] Name and Type:
+                Name: 33 println
+                Descriptor: 35 (I)V
+        [27] UTF-8:
+                String: lookupswitch
+        [28] UTF-8:
+                String: java/lang/Object
+        [29] UTF-8:
+                String: java/lang/System
+        [30] UTF-8:
+                String: out
+        [31] UTF-8:
+                String: Ljava/io/PrintStream;
+        [32] UTF-8:
+                String: java/io/PrintStream
+        [33] UTF-8:
+                String: println
+        [34] UTF-8:
+                String: (Ljava/lang/String;)V
+        [35] UTF-8:
+                String: (I)V
+
+
+---> INTERFACES
+        No Intefaces
+
+---> FIELDS
+        No Fields
+
+---> METHODS
+        Method count: 3
+        Method[0]: chooseFar
+        Descriptor: (I)I
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 86
+        Atributes info:
+        Maximum stack size: 1
+        Maximum local variables: 1
+        Code length: 46
+        [0]     iload_0
+        [1]     lookupswitch 3
+                        -100: 36 (+35)
+                        0: 38 (+37)
+                        100: 40 (+39)
+                        default: 42 (+41)
+        [36]    iconst_m1
+        [37]    ireturn
+        [38]    iconst_0
+        [39]    ireturn
+        [40]    iconst_1
+        [41]    ireturn
+        [42]    sipush          200
+        [45]    ireturn
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 22
+        Line Number Table Length: 5
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       6
+        1               36                      7
+        2               38                      8
+        3               40                      9
+        4               42                      10
+
+        Method[1]: <init>
+        Descriptor: ()V
+        Access Flags: 0x1 [ public ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 45
+        Atributes info:
+        Maximum stack size: 2
+        Maximum local variables: 1
+        Code length: 13
+        [0]     aload_0
+        [1]     invokespecial           #1 java/lang/Object.<init>
+        [4]     getstatic               #2 java/lang/System.out
+        [7]     ldc                             #3 Ops!
+        [9]     invokevirtual           #4 java/io/PrintStream.println
+        [12]    return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 14
+        Line Number Table Length: 3
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       13
+        1               4                       14
+        2               12                      15
+
+        Method[2]: main
+        Descriptor: ([Ljava/lang/String;)V
+        Access Flags: 0x9 [ public static ]
+        Member Count: 1
+
+        Attribute name: Code
+        Attribute length: 99
+        Atributes info:
+        Maximum stack size: 2
+        Maximum local variables: 1
+        Code length: 55
+        [0]     getstatic               #2 java/lang/System.out
+        [3]     iconst_m1
+        [4]     invokestatic            #5 lookupswitch.chooseFar
+        [7]     invokevirtual           #6 java/io/PrintStream.println
+        [10]    getstatic               #2 java/lang/System.out
+        [13]    bipush          156
+        [15]    invokestatic            #5 lookupswitch.chooseFar
+        [18]    invokevirtual           #6 java/io/PrintStream.println
+        [21]    getstatic               #2 java/lang/System.out
+        [24]    iconst_0
+        [25]    invokestatic            #5 lookupswitch.chooseFar
+        [28]    invokevirtual           #6 java/io/PrintStream.println
+        [31]    getstatic               #2 java/lang/System.out
+        [34]    bipush          100
+        [36]    invokestatic            #5 lookupswitch.chooseFar
+        [39]    invokevirtual           #6 java/io/PrintStream.println
+        [42]    getstatic               #2 java/lang/System.out
+        [45]    sipush          10000
+        [48]    invokestatic            #5 lookupswitch.chooseFar
+        [51]    invokevirtual           #6 java/io/PrintStream.println
+        [54]    return
+        Exception table length: 0
+
+        Attribute name: LineNumberTable
+        Attribute length: 26
+        Line Number Table Length: 6
+        Atributte info:
+        Nr.             StartPC         Line Number
+        0               0                       17
+        1               10                      18
+        2               21                      19
+        3               31                      20
+        4               42                      21
+        5               54                      22
+
+
+
+---> ATTRIBUTES
+
+        Attribute name: SourceFile
+        Attribute length: 2
+        Source file name index: lookupswitch.java
